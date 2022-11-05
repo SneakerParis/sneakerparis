@@ -1,0 +1,81 @@
+/* Police Ecriture */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Prompt', sans-serif; */
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .name{
+    color: #fff;
+    font-size: 60px;
+}
+.container .date{
+    color: #fff;
+    font-size: 25px;
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer span {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 425px) {
+    .container .name {
+        color: #fff;
+        font-size: 40px;
+    }
+    .container .date {
+        color: #fff;
+        font-size: 20px;
+    }
+    .footer span {
+        text-align: center;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container .name {
+        color: #fff;
+        font-size: 32px;
+    }
+    .container .date {
+        color: #fff;
+        font-size: 17px;
+    }
+    .footer span {
+        text-align: center;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 100;
+    }
+}
