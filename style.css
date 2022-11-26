@@ -32,6 +32,7 @@ header {
     color: #fff;
     font-size: 25px;
 }
+/*
 .footer {
     position: absolute;
     bottom: 10px;
@@ -45,7 +46,7 @@ header {
     font-size: 16px;
     font-weight: 100;
 }
-
+*/
 @media screen and (max-width: 425px) {
     .container .name {
         color: #fff;
@@ -55,12 +56,14 @@ header {
         color: #fff;
         font-size: 20px;
     }
+    /*
     .footer span {
         text-align: center;
         color: #fff;
         font-size: 11px;
         font-weight: 100;
     }
+    */
 }
 
 @media screen and (max-width: 320px) {
@@ -72,10 +75,12 @@ header {
         color: #fff;
         font-size: 17px;
     }
+    /*
     .footer span {
         text-align: center;
         color: #fff;
         font-size: 11px;
         font-weight: 100;
     }
+    */
 }
